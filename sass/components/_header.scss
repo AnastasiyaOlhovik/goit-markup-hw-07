@@ -1,0 +1,106 @@
+.page-header {
+    display: flex;
+
+&_site-nav {
+        display: flex;
+        align-items: center;}
+    
+&_site-nav .page-header_item + .page-header_item{
+        margin-left:50px;}
+    
+&_item_link {
+        position: relative;}
+    
+&_site-nav .page-header_item_link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;}
+    
+&_site-nav .page-header_item_link:hover,
+&_site-nav .page-header_item_link:focus{
+    color:var(--accent-color); }
+
+
+&_logo{
+        font-family:  "Raleway", sans-serif;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        margin-bottom: 0px;}
+        
+
+&_logos{
+            font-size: 26px;
+            font-weight: bold;
+            font-family: "Raleway", sans-serif;}
+    
+  
+&_communication {
+                display: flex;
+                line-height:1.14;
+                color: var(--title-text-color);
+                transition-property: color;
+                transition-duration: 250ms;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                text-decoration: none;}
+
+&_contact-nav {
+    display: inline-flex;
+    margin-left: auto; 
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;    
+    line-height: 1.14;}
+
+&_icon-item {
+    fill:#757575;  
+    margin-right: 10px;
+    margin-left: 50px;}
+
+&_icon-mail {
+    margin-right: 10px;
+    fill: #757575;
+    align-self: center;}
+
+&_contact-nav &_item + &_item
+{margin-left: 50px;}        
+            
+            
+&_communication:hover &_icon-mail,
+&_communication:focus &_icon-mail{  
+                    fill: #2196F3;}
+                    
+&_communication:hover &_icon-item,
+&_communication:focus &_icon-item{  
+                    fill: #2196F3;}        
+                        
+&_communication:hover,
+&_communication:focus {  
+color: var(--accent-color);}            
+}
+
+.logo-second {
+    color: #000000;
+    font-weight: bold;}
+
+    .current::after{ 
+        position: absolute;
+        content:'';
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: #2196F3;
+        border-radius: 2px;}      

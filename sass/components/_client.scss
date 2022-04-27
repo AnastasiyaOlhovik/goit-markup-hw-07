@@ -3,13 +3,13 @@
     padding-bottom: 94px;
 
 
-&_constanta{ 
+&__constanta{ 
     display: flex;
  justify-content: center;
- padding-top: 50px;} 
+ margin-top: 50px;} 
 
 
- &_client {
+ &__client {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -30,9 +30,9 @@
  &--client-item:not(:last-child){ margin-right: 30px;}
 
  
- &_client:hover  &--client-icon,
- &_client:focus  &--client-icon{  fill: #2196F3;}
+ &__client:hover  &--client-icon,
+ &__client:focus  &--client-icon{  fill: #2196F3;}
      
- &_client:hover,
- &_client:focus { border: 1px solid #2196f3;}
+ &__client:hover,
+ &__client:focus { border: 1px solid #2196f3;}
 }

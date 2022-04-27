@@ -3,8 +3,13 @@
     display: flex;
     align-items: baseline;  
 
+&__logo-second {
+        color: #EEEEEE;
+        font-weight: bold;}
 
-&_litter-contact{
+
+        
+&__litter-contact{
     display: block;
     margin-bottom: 9px;
     line-height: 24px;
@@ -12,25 +17,25 @@
     text-decoration: none;
     font-style: normal;}
 
-&_all-vector { display:inline-block;
+&__all-vector { display:inline-block;
         margin-left: 70px;}
 
     
-  &_logo{  
+&__logo{  
         font-family:  "Raleway", sans-serif;
         font-size: 26px;
         line-height: 1.19;
         text-decoration: none;
         margin-bottom: 0px;} 
 
-&_logos{
+&__logos{
         font-size: 26px;
         font-weight: bold;
         font-family: "Raleway", sans-serif}    
    
 
 
-&_vector{
+&__vector{
     margin-bottom: 20px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -39,7 +44,7 @@
 
 
 
-&_socials-footer { display: flex;
+&__socials-footer { display: flex;
         justify-content: center;
         align-items: center;
         width: 44px;
@@ -53,14 +58,14 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
 
-&_icon-footer {fill: #EEEEEE;}
+&__icon-footer {fill: #EEEEEE;}
 
-&_socials-footer:hover,
-&_socials-footer:focus{
+&__socials-footer:hover,
+&__socials-footer:focus{
     background-color: #2196f3;}    
 
 
-&_point {
+&__point {
     margin-bottom: 0px;
     line-height: 24px;
     letter-spacing:0.03em;
@@ -69,16 +74,16 @@
 color: rgba(255, 255, 255, 0.6)}
 
 
-&_form-container {margin-left: auto;}
+&__form-container {margin-left: auto;}
 
-&_all-form{
+&__all-form{
     display: flex;}    
 
 
-&_form-label{
+&__form-label{
      position: absolute;}    
 
-&_from-input{
+&__from-input{
      color: #EEEEEE;
      background-color:rgba(47, 48, 58, 1);
      margin: 0;
@@ -88,7 +93,7 @@ color: rgba(255, 255, 255, 0.6)}
      border: 1px solid rgba(255, 255, 255, 0.3);}
 
 
-&_form-btn{
+&__form-btn{
       position: relative;
       justify-content: center;
       display: flex;
@@ -111,24 +116,24 @@ color: rgba(255, 255, 255, 0.6)}
       
 
 
-&_icon-btn{
+&__icon-btn{
         position: absolute;
         margin-left: 10px;
        align-self: baseline;
        transform: translate(70px, 12px);}   
          
-&_from-name {
+&__from-name {
         margin-bottom: 20px;
         text-transform: uppercase;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing:0.03em;}
     
-&_centre-btn {
+&__centre-btn {
             justify-content: center;}   
             
             
-&_cont-form {margin-left: auto;}  }      
+&__cont-form {margin-left: auto;}  }      
 
     .form-btn:hover .form-btn:focus{
         outline: transparent;

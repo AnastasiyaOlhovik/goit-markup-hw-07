@@ -10,7 +10,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
-&_vector-modal{
+&__vector-modal{
         position: absolute;
         box-sizing: border-box;
         display: flex;
@@ -29,15 +29,15 @@
         cursor: pointer;}
     
      
-&_vector-modal:hover,
-&_vector-modal:focus{
+&__vector-modal:hover,
+&__vector-modal:focus{
         fill:#2196f3;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}   
       
-&_vector-icon {
+&__vector-icon {
         align-content: center;}
 
-&_form-hd {
+&__form-hd {
             text-align: center;
             margin-bottom: 12px;
             border-top: 40px;
@@ -120,17 +120,17 @@
                       transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
                       cursor: pointer;}        
       
-&_com-field  textarea:focus-within,
-&_com-field  textarea:hover {
+&__com-field  textarea:focus-within,
+&__com-field  textarea:hover {
                   border: 1px solid #2196f3;
                   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
                   cursor: pointer;
                   outline: transparent;} 
           
-&_com-field {
+&__com-field {
               display: flex;
               flex-direction: column;}  
-&_com-field  label{
+&__com-field  label{
             margin-top: 0px;
             width: 80px;
             margin-bottom: 4px;
@@ -139,22 +139,22 @@
             cursor: pointer;
             color:  rgba(117, 117, 117, 1);}  
               
-&_com-field--comment{
+&__com-field--comment{
                 height: 88px;
                 resize: none;
                 padding: 12px 16px;
                 border: 1px solid rgba(33, 33, 33, 0.2);
                 border-radius: 4px;}  
                    
-&_chek-container--checkbox{
+&__chek-container--checkbox{
                -webkit-appearance: none;
                position: absolute;}
                
-&_chek-container--chek {
+&__chek-container--chek {
               display: inline-block;}
                 
                 
-&_chek-container--icon-chek {
+&__chek-container--icon-chek {
                 display: inline-block;
                 width: 16px;
                 height: 15px;
@@ -164,7 +164,7 @@
                 transform: translateY(-3px);} 
             
                 
-&_chek-container--checkbox:checked + .modal_chek-container--icon-chek {
+&__chek-container--checkbox:checked +  &__chek-container--icon-chek {
                 border-color:#2196f3;
                 background-color: #2196f3;
                 background-image: url('../images/check.svg');
@@ -173,16 +173,16 @@
                 background-origin: border-box;} 
       
                 
-&_chek-container {
+&__chek-container {
               display: flex;
               justify-content: center;
               margin-top: 20px;}
       
-&_chek-container--sogl {
+&__chek-container--sogl {
               text-decoration: underline;}
                
        
-&_chek-container--name-chek {
+&__chek-container--name-chek {
               display: block;
               margin-left: 7px;
               color: #757575;
@@ -191,13 +191,13 @@
               height: 24px;
               letter-spacing: 0.03em;}
       
-&_but-centre {
+&__but-centre {
               justify-content: center;
               display: flex;
               transform: translateY(37%);}    
               
       
-&_but-modal{
+&__but-modal{
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
           font-weight: bold;
           padding: 10px 56px;
@@ -216,5 +216,5 @@
              left: 14px;
              display: inline-block;} 
               
-&_otstyp {
+&__otstyp {
              padding-left: 35px;} }           

@@ -12,7 +12,7 @@
        url(../images/hero.jpg);
    
    
-    &_hero-title {
+    &__hero-title {
        width: 696px;
        margin:0 auto;
        text-align: center;
@@ -22,7 +22,7 @@
        text-transform: uppercase;
        letter-spacing: 0.06em;}    
    
-    &_button-header {
+    &__button-header {
        margin-top: 30px;
        font-weight: bold;
        padding: 10px 32px;
@@ -35,6 +35,6 @@
        border: none;}
    
    
-   &_button-header:hover,
-   &_button-header:focus{
+   &__button-header:hover,
+   &__button-header:focus{
        cursor: pointer; }}
